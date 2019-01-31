@@ -1,5 +1,9 @@
 book_filename: "out"
+output_dir: "docs"
 delete_merged_file: yes
+new_session: yes
+keep_md: false
+before_chapter_script: 'addons/pre_chap.R'
 language:
   ui:
     chapter_name: "Chapter "

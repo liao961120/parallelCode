@@ -1,4 +1,4 @@
-# Function Factories
+# Function Factories `r edit_btn`
 
 A function factory is a function that makes functions [@wickham2019].
 
