@@ -1704,6 +1704,7 @@ $(document).ready(function () {
 </div>
 <div id="file-manipulation" class="section level1">
 <h1><span class="header-section-number">2</span> File Manipulation</h1>
+<p><span class="citation">Treadway (<a href="#ref-treadway2017">2017</a>)</span>, <span class="citation">Treadway (<a href="#ref-treadway2018a">2018</a><a href="#ref-treadway2018a">a</a>)</span>, and <span class="citation">Treadway (<a href="#ref-treadway2018">2018</a><a href="#ref-treadway2018">b</a>)</span></p>
 <!--chapter:end:00-file_manipulation.Rmd-->
 </div>
 <div id="function-factories" class="section level1">
@@ -1733,7 +1734,7 @@ rand2019 &lt;-<span class="st"> </span><span class="kw">rand</span>(<span class=
 <div id="python" class="section level3 unnumbered">
 <h3>Python</h3>
 <pre class="sourceCode python"><code class="sourceCode python"><span class="im">import</span> time
-<span class="kw">def</span> rand(seed <span class="op">=</span> time.time(), upper <span class="op">=</span> <span class="dv">99999</span>, rng_one <span class="op">=</span> <span class="va">True</span>):
+<span class="kw">def</span> rand(seed<span class="op">=</span>time.time(), upper<span class="op">=</span><span class="dv">99999</span>, rng_one<span class="op">=</span><span class="va">True</span>):
     <span class="kw">def</span> randgen():
         <span class="kw">nonlocal</span> seed
         rand_num <span class="op">=</span> (<span class="dv">1664525</span> <span class="op">*</span> seed <span class="op">+</span> <span class="dv">1013904223</span>) <span class="op">%</span> upper
@@ -1762,8 +1763,17 @@ rand2019 <span class="op">=</span> rand(seed<span class="op">=</span><span class
 <div id="ref-klein2019">
 <p>Klein, Bernd. 2019. “Python Tutorial: Global Vs. Local Variables and Namespaces.” 2019. <a href="https://www.python-course.eu/python3_global_vs_local_variables.php">https://www.python-course.eu/python3_global_vs_local_variables.php</a>.</p>
 </div>
+<div id="ref-treadway2017">
+<p>Treadway, Andrew. 2017. “File Manipulation with Python - Open Source Automation.” August 31, 2017. <a href="http://theautomatic.net/2017/08/31/file-manipulation-with-python/">http://theautomatic.net/2017/08/31/file-manipulation-with-python/</a>.</p>
+</div>
+<div id="ref-treadway2018a">
+<p>———. 2018a. “R: How to Create, Delete, Move, and More with Files.” Open Source Automation. July 11, 2018. <a href="http://theautomatic.net/2018/07/11/manipulate-files-r/">http://theautomatic.net/2018/07/11/manipulate-files-r/</a>.</p>
+</div>
+<div id="ref-treadway2018">
+<p>———. 2018b. “10 R Functions for Linux Commands and Vice-Versa.” Open Source Automation. December 10, 2018. <a href="http://theautomatic.net/2018/12/10/10-r-functions-for-linux-commands-and-vice-versa/">http://theautomatic.net/2018/12/10/10-r-functions-for-linux-commands-and-vice-versa/</a>.</p>
+</div>
 <div id="ref-wickham2019">
-<p>Wickham, Hadley. 2019. <em>Function Factories | Advanced R</em>. <a href="https://adv-r.hadley.nz/">https://adv-r.hadley.nz/</a>.</p>
+<p>Wickham, Hadley. 2019. “Function Factories.” Advanced R. 2019. <a href="https://adv-r.hadley.nz/">https://adv-r.hadley.nz/</a>.</p>
 </div>
 </div>
 </div>
