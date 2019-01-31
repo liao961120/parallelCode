@@ -1,0 +1,33 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+
+/* Make Author right-align in blockquotes */
+blockquote > p:last-child {
+  text-align: right;
+}
+blockquote > p:first-child {
+  text-align: inherit;
+}
+
+pre code, pre, code {
+  white-space: pre-wrap ;
+  overflow-x: auto !important;
+  word-break: keep-all ;
+  word-wrap: initial ;
+}
+
+/* Hide scroll bar in code chunk */
+pre.sourceCode {
+  margin-bottom: 8px;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}

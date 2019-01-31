@@ -1,0 +1,20 @@
+Package: placeholder
+Title: placeholder
+Version: 1.0.0
+Authors@R:
+    person(given = "Yongfu", 
+           family = "Liao",
+           email = "liao961120@gmail.com", 
+           role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-1814-2993"))
+URL: https://liao961120.github.io, https://github.com/liao961120
+Depends: R (>= 3.4.4)
+License: placeholder
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+Imports: bookdown,
+    tidyverse,
+    remotes,
+    reticulate
+RoxygenNote: 6.1.0

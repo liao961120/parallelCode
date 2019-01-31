@@ -1,0 +1,10 @@
+book_filename: "out"
+delete_merged_file: yes
+language:
+  ui:
+    chapter_name: "Chapter "
+
+#rmd_files:
+#  [
+#    "index.Rmd",
+#  ]

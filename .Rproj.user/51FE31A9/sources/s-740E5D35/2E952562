@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1548928837734.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1340708635",
+    "id" : "2E952562",
+    "lastKnownWriteTime" : 1548927593,
+    "last_content_update" : 1548927593,
+    "path" : "~/ParallelCode/00-functional_programming.Rmd",
+    "project_path" : "00-functional_programming.Rmd",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
