@@ -7,11 +7,10 @@ before_install:
 
 
 script:
-  - Rscript -e 'remotes::install_github("RLesur/klippy")'
-  - Rscript -e 'remotes::install_github("juba/rmdformats")'
-  - Rscript -e 'print(Sys.which("python3"))'
+  - Rscript -e 'devtools::install_github("RLesur/klippy")'
+  - Rscript -e 'devtools::install_github("juba/rmdformats")'
   - Rscript -e 'bookdown::render_book("index.Rmd", output_format = "rmdformats::readthedown")'
-  - mkdir docs; mv out.html docs
+  - mkdir docs; mv out.html docs/index.html
 
 cache:
   packages: yes
