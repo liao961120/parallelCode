@@ -9,8 +9,9 @@ before_install:
 script:
   - Rscript -e 'devtools::install_github("RLesur/klippy")'
   - Rscript -e 'devtools::install_github("juba/rmdformats")'
-  - Rscript -e 'bookdown::render_book("index.Rmd", output_format = "rmdformats::readthedown")'
-  - mkdir docs; mv out.html docs/index.html
+  - Rscript -e 'bookdown::render_book("index.Rmd")'
+  - mv out.html _bookdown_files/index.html
+  - mv addons _bookdown_files
 
 cache:
   packages: yes
@@ -21,6 +22,6 @@ deploy:
   skip-cleanup: true
   github-token: $GH_TOKEN  # Set in travis-ci.org dashboard, marked secure
   keep-history: true
-  local-dir: docs # Book output directory
+  local-dir: _bookdown_files # Book output directory
   on:
     branch: master

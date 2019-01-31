@@ -2,3 +2,6 @@
 /.Rproj.user
 .Rbuildignore
 .Rproj.user
+out.rds
+/docs
+/_bookdown_files
