@@ -4,7 +4,7 @@ A function factory is a function that makes functions [@wickham2019].
 
 ## Random Number Genrator {.tabset}
 
-Create `rand()`, a function factory that creates kinds of random number generators when different parameters are set.
+Create `rand()`, a function factory that creates different kinds of random number generators when different parameters are set.
 
 ### R {-}
 ```{r}
