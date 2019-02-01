@@ -12,7 +12,7 @@ blockquote > p:first-child {
 }
 
 pre code, pre, code {
-  white-space: pre-wrap ;
+  white-space: pre ;
   overflow-x: auto !important;
   word-break: keep-all ;
   word-wrap: initial ;
@@ -50,4 +50,8 @@ h4.author, h4.date {
   font-weight: normal;
   margin-top: 11px;
   margin-bottom: -8px;
+}
+
+a {
+  word-wrap: break-word;
 }
