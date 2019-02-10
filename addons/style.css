@@ -55,3 +55,18 @@ h4.author, h4.date {
 a {
   word-wrap: break-word;
 }
+
+a:link img.edit { 
+  display:inline-block;
+  height:0.5em;
+  margin-bottom:0;
+}
+
+a:hover img.edit {
+  display:inline-block;
+  height:0.7em;
+  margin-bottom:0;
+}
+
+
+style="display:inline-block;height:0.5em;margin-bottom:0"
