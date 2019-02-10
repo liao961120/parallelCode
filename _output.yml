@@ -9,7 +9,7 @@ bookdown::html_document2:
     collapsed: false
   includes:
     in_header: ['addons/target_blank.js', 'addons/GA.html']
-    before_body: addons/font_awsome.html
+#    before_body: addons/font_awesome.html
   css: addons/style.css
   self_contained: false
 rmdformats::readthedown:
@@ -18,7 +18,7 @@ rmdformats::readthedown:
   toc_depth: 2
   css: addons/style.css
   #includes:
-    #before_body: addons/font_awsome.html
+    #before_body: addons/font_awesome.html
 pagedown::book_crc:
   toc: true
   number_sections: true
